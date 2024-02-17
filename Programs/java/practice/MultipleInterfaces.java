@@ -1,4 +1,4 @@
-package com.java.practice;
+package java.practice;
 
 interface FirstInterface {
 
