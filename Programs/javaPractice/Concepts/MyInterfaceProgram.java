@@ -1,4 +1,4 @@
-package java.practice;
+package javaPractice.Concepts;
 
 public class MyInterfaceProgram {
 
