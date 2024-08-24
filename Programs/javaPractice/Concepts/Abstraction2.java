@@ -16,7 +16,7 @@ public class Abstraction2 {
 abstract class Car {
 
 	Car() {    										//Constructor
-		System.out.println("bike is created");        
+		System.out.println("Car is created");        
 	}
 
 	abstract void run();							//abstract method

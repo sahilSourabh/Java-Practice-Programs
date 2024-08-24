@@ -5,7 +5,7 @@ interface FirstInterface {
 	// public, static and final variables
 	final int a = 5;
 
-	public void myMethod();
+	void myMethod();
 }
 
 interface SecondInterface {

@@ -12,7 +12,7 @@ public class Super {
 }
 
 //super keyword in Java is a reference variable which is used to refer immediate parent class object.
-//super can be used to refer to immediate parent class instance variables, methods and constructor
+//super can be used to refer to immediate parent class instance variables, methods and constructor.
 class Person {
 	
 	int id;

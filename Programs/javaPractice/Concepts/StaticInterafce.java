@@ -6,7 +6,7 @@ public class StaticInterafce {
 		
 		Rectangle rect = new Rectangle();
 		rect.draw();
-		System.out.println("cube of a Rectangle: "+Drawable.cube(4));
+		System.out.println("cube of a Rectangle: "+ Drawable.cube(4));
 		
 	}
 

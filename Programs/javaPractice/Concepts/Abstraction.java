@@ -13,7 +13,6 @@ public class Abstraction {
 		System.out.println("Rate of Interest PNB is: "+p.getRateOfInterest()+" %");    
 
 	}
-
 }
 
 abstract class Bank {
