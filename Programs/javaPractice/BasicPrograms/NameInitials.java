@@ -1,7 +1,5 @@
 package javaPractice.BasicPrograms;
 
-import java.util.Scanner;
-
 public class NameInitials {
 	
 	public static void main(String[] args) {
