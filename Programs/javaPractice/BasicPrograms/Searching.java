@@ -8,11 +8,18 @@ public class Searching {
 		
 		int arr[] = {1, 22, 3, 4, 55};
 		System.out.println("Array: "+Arrays.toString(arr));
-		int key = 55;
+		int key = 50;
 		System.out.println("Key: "+key);
 		
 		int result = linearSearch(arr,key);
-		System.out.println("Element found at: "+result);
+		
+		if(result == -1) {
+			System.out.println("Element Not found");
+		}
+		else {
+			System.out.println("Element found at: "+result);	
+		}
+		
 		
 		linearSearching();
 
@@ -37,7 +44,7 @@ public class Searching {
 		int arr[] = {1, 22, 3, 4, 55};
 		System.out.println("Array: "+Arrays.toString(arr));
 		
-		int key = 50, flag=0;
+		int key = 55, flag=0;
 		System.out.println("Key: "+key);
 		int index=0;
 		
@@ -47,6 +54,7 @@ public class Searching {
 				
 				index=i;
 				flag=1;
+				break;
 			}
 		}
 		if(flag==0) {

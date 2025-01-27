@@ -49,7 +49,7 @@ public class MaxMinArray {
 
 	static List<Integer> getMinMax() {
 		
-		long[] a = { 11, 33, 5, 55, 10, 8 };
+		int[] a = { 11, 33, 5, 55, 10, 8 };
 		int n = a.length;
 		long min = a[0];
 

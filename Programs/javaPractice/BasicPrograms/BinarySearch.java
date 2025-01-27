@@ -71,13 +71,13 @@ public class BinarySearch {
 
 			int mid = (first + last)/2;
 			
-			if (arr[mid] < key) {
-				first = mid + 1;
-			}
-			else if (arr[mid] == key) {
+			if (arr[mid] == key) {
 				System.out.println("Element is found at index: " + mid);
 				break;
 			} 
+			else if (arr[mid] < key) {
+				first = mid + 1;
+			}
 			else {
 				last = mid - 1;
 			}
